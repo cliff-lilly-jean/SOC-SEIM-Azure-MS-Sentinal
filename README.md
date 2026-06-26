@@ -142,6 +142,8 @@ WindowsEvents
 - Used the workbook to display attacker locations on a visual map.
 
 <img src="Images/failed-logins-attack-map.png">
+
+### After 24-Hours
 <img src="Images/24-hour-attack-map.png">
 
 *Ref 3: Microsoft Sentinel workbook map showing failed login attempt locations and counts.*
@@ -156,6 +158,10 @@ Observed locations included:
 - Jung-gu, South Korea
 - Kingston, Canada
 - Rotterdam, Netherlands
+- Jaromer, Czechia
+- Düsseldorf Germany
+- Marin, Netherlands
+- Cape Town, South Africa
 
 ## Lessons Learned
 - A Resource Group keeps Azure lab resources organized.
