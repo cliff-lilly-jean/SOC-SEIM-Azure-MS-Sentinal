@@ -144,7 +144,7 @@ WindowsEvents
 <img src="Images/failed-logins-attack-map.png">
 
 ### After 24-Hours
-<img src="Images/24-hour-attack-map.png">
+<img src="Images/24-hour-attack-map-results.png">
 
 *Ref 3: Microsoft Sentinel workbook map showing failed login attempt locations and counts.*
 
