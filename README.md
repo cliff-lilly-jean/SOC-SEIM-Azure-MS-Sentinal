@@ -142,6 +142,7 @@ WindowsEvents
 - Used the workbook to display attacker locations on a visual map.
 
 <img src="Images/failed-logins-attack-map.png">
+<img src="Images/24-hour-attack-map.png">
 
 *Ref 3: Microsoft Sentinel workbook map showing failed login attempt locations and counts.*
 
