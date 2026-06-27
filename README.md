@@ -146,6 +146,9 @@ WindowsEvents
 ### After 24-Hours
 <img src="Images/24-hour-attack-map-results.png">
 
+### After 48-Hours
+<img src="Images/48_hour_attack_map.png">
+
 *Ref 3: Microsoft Sentinel workbook map showing failed login attempt locations and counts.*
 
 ## Results
