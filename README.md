@@ -141,15 +141,31 @@ WindowsEvents
 - Created a workbook to hold the information used to map attacker locations.
 - Used the workbook to display attacker locations on a visual map.
 
-<img src="Images/failed-logins-attack-map.png">
+<img src="Images/workbook-map-live-view.png">
 
-### After 24-Hours
-<img src="Images/24-hour-attack-map-results.png">
+*Ref 3: Microsoft Sentinel workbook showing the failed login map and summarized locations.*
 
-### After 48-Hours
-<img src="Images/48_hour_attack_map.png">
+### Workbook Map Snapshots
 
-*Ref 3: Microsoft Sentinel workbook map showing failed login attempt locations and counts.*
+#### Snapshot 1
+<img src="Images/attack-map-snapshot-1.png">
+
+*Ref 4: Attack map snapshot showing early failed login activity from multiple regions.*
+
+#### Snapshot 2
+<img src="Images/attack-map-snapshot-2.png">
+
+*Ref 5: Attack map snapshot showing increased failed login activity over time.*
+
+#### Snapshot 3
+<img src="Images/attack-map-snapshot-3.png">
+
+*Ref 6: Attack map snapshot showing additional failed login activity and updated location counts.*
+
+#### Snapshot 4
+<img src="Images/attack-map-snapshot-4.png">
+
+*Ref 7: Attack map snapshot showing another set of observed failed login sources and counts.*
 
 ## Results
 The lab collected failed login events from the Windows VM, queried the events in Log Analytics Workspace, enriched them with GeoIP location data, and displayed attacker locations in a Microsoft Sentinel workbook map.
@@ -157,14 +173,23 @@ The lab collected failed login events from the Windows VM, queried the events in
 Observed locations included:
 - Auckland, New Zealand
 - Makati City, Philippines
+- Hollywood, United States
+- Abingdon, United States
+- Sydney, Australia
+- Perth, Australia
+- Hong Kong
+- Jaromer, Czechia
+- Maarn, Netherlands
+- Düsseldorf, Germany
+- London, United Kingdom
+- Val-de-Reuil, France
+- Milan, Italy
+- Cape Town, South Africa
+- Rotterdam, Netherlands
 - Lockport, United States
 - Jung-gu, South Korea
 - Kingston, Canada
-- Rotterdam, Netherlands
-- Jaromer, Czechia
-- Düsseldorf Germany
-- Marin, Netherlands
-- Cape Town, South Africa
+- Crowley, United States
 
 ## Lessons Learned
 - A Resource Group keeps Azure lab resources organized.
